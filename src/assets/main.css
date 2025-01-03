@@ -13,4 +13,9 @@ a {
   text-decoration: none;
 }
 
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+h2 {
+  margin-bottom: 8rem;
+
+  color: #2E363E;
+
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 6rem;
+
+  text-align: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  grid-gap: 2rem;
+}
