@@ -2,7 +2,6 @@
   width: fit-content;
   color: #2E363E;
   border: none;
-  cursor: pointer;
 }
 
 .btn.primary {
@@ -29,6 +28,8 @@
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 2.8rem;
+
+  cursor: pointer;
 }
 
 .btn.primary.header {

@@ -1,0 +1,29 @@
+.order {
+  height: 125rem;
+  padding: 20rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: url("../../images/bg-smoke-top.png") top left no-repeat, url("../../images/bg-smoke-bottom.png") bottom left no-repeat, url("../../images/phone-order.png") bottom left -10rem no-repeat, #081130;
+}
+.order .order__content {
+  width: 40%;
+}
+.order .order__content .content__text {
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.order .order__content .content__text h2 {
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 6rem;
+}
+.order .order__content .content__text p {
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+/*# sourceMappingURL=order.css.map */
