@@ -1,0 +1,37 @@
+.btn {
+  width: fit-content;
+  color: #2E363E;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: #F2F6FA;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+}
+
+.btn.secondary {
+  background-color: #FED84C;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  border-radius: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+}
+
+.btn.primary.header {
+  padding: 1rem 1.8rem;
+}
+
+.btn.secondary.header {
+  padding: 3rem 5rem;
+}
+
+/*# sourceMappingURL=button.css.map */
