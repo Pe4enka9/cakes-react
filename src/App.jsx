@@ -4,6 +4,7 @@ import Catalog from "./components/Catalog/Catalog.jsx";
 import Order from "./components/Order/Order.jsx";
 import Confectioner from "./components/Confectioner/Confectioner.jsx";
 import Reviews from "./components/Reviews/Reviews.jsx";
+import Gallery from "./components/Gallery/Gallery.jsx";
 
 export default function App() {
     return (
@@ -14,6 +15,7 @@ export default function App() {
                 <Order/>
                 <Confectioner/>
                 <Reviews/>
+                <Gallery/>
             </main>
         </>
     )
