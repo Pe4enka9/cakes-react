@@ -1,0 +1,50 @@
+.reviews {
+  height: 150rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  background: url("../../images/bg-smoke-top1.png") no-repeat top left, url("../../images/bg-smoke-bottom1.png") no-repeat bottom left, #081130;
+}
+.reviews h2 {
+  margin-bottom: 8rem;
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 6rem;
+  text-align: center;
+}
+.reviews .slider {
+  margin-bottom: 7rem;
+}
+.reviews .arrows {
+  display: flex;
+  justify-content: center;
+  gap: 2.3rem;
+}
+.reviews .arrows > div {
+  width: 6.6rem;
+  height: 6.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FED84C;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.reviews .arrows > div:hover {
+  cursor: pointer;
+}
+.reviews .arrows > div .arrow {
+  width: 2rem;
+  height: 2rem;
+  border-left: 4px solid #2E363E;
+  border-top: 4px solid #2E363E;
+}
+.reviews .arrows .arrows__prev .arrow {
+  transform: translateX(20%) rotate(-45deg);
+}
+.reviews .arrows .arrows__next .arrow {
+  transform: translateX(-20%) rotate(135deg);
+}
+
+/*# sourceMappingURL=reviews.css.map */
